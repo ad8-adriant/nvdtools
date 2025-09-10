@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/ad8-adriant/nvdtools/providers/redhat"
+	"github.com/ad8-adriant/nvdtools/rpm"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/redhat"
-	"github.com/facebookincubator/nvdtools/rpm"
 )
 
 func main() {

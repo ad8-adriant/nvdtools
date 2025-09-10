@@ -15,8 +15,8 @@
 package check
 
 import (
-	"github.com/facebookincubator/nvdtools/rpm"
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/rpm"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 type pkgCheck interface {

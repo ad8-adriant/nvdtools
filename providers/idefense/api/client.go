@@ -22,10 +22,10 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/ad8-adriant/nvdtools/providers/idefense/schema"
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/lib/runner"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/idefense/schema"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/lib/runner"
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 )

@@ -20,8 +20,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/facebookincubator/nvdtools/cvefeed/nvd"
-	"github.com/facebookincubator/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/cvefeed/nvd"
+	"github.com/ad8-adriant/nvdtools/cvefeed/nvd/schema"
 )
 
 var cpeParts = map[string]string{

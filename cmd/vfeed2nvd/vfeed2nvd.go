@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"os"
 
+	nvd "github.com/ad8-adriant/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/providers/vfeed/api"
 	"github.com/facebookincubator/flog"
-	nvd "github.com/facebookincubator/nvdtools/cvefeed/nvd/schema"
-	"github.com/facebookincubator/nvdtools/providers/vfeed/api"
 )
 
 const pathVar = "VFEED_REPO_PATH"

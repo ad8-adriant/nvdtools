@@ -22,11 +22,11 @@ import (
 	"os"
 	"strings"
 
+	"github.com/ad8-adriant/nvdtools/providers/flexera/api"
+	"github.com/ad8-adriant/nvdtools/providers/flexera/schema"
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/lib/runner"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/flexera/api"
-	"github.com/facebookincubator/nvdtools/providers/flexera/schema"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/lib/runner"
 )
 
 func Read(r io.Reader, c chan runner.Convertible) error {

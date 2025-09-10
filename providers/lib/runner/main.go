@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
+	nvd "github.com/ad8-adriant/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/stats"
 	"github.com/facebookincubator/flog"
-	nvd "github.com/facebookincubator/nvdtools/cvefeed/nvd/schema"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/stats"
 )
 
 // Convertible is any struct which knows how to convert itself to NVD CVE Item

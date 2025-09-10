@@ -15,9 +15,9 @@
 package schema
 
 import (
+	nvd "github.com/ad8-adriant/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/wfn"
 	"github.com/facebookincubator/flog"
-	nvd "github.com/facebookincubator/nvdtools/cvefeed/nvd/schema"
-	"github.com/facebookincubator/nvdtools/wfn"
 )
 
 const (

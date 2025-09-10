@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/facebookincubator/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/cvefeed/nvd/schema"
+	"github.com/ad8-adriant/nvdtools/wfn"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/wfn"
 )
 
 // Matcher returns an object which knows how to match attributes

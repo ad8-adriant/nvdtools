@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 // Package represents one RPM package

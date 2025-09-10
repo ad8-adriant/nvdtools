@@ -24,8 +24,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/ad8-adriant/nvdtools/wfn"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/wfn"
 )
 
 func main() {

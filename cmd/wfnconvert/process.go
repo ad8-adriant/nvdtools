@@ -17,7 +17,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 func process(in string, o *options) (string, error) {

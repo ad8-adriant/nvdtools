@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/snyk/schema"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/snyk/schema"
 )
 
 type Client struct {

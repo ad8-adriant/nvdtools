@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/facebookincubator/nvdtools/providers/lib/rate"
+	"github.com/ad8-adriant/nvdtools/providers/lib/rate"
 )
 
 // WithThrottling creates a rate limitted client - all requests are throttled

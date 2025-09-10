@@ -17,7 +17,7 @@ package rpm
 import (
 	"testing"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 func TestToWFN(t *testing.T) {

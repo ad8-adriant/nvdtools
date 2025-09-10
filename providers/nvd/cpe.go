@@ -26,8 +26,8 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
 )
 
 // CPE defines the CPE data feed for synchronization.

@@ -25,9 +25,9 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/ad8-adriant/nvdtools/vulndb/debug"
+	"github.com/ad8-adriant/nvdtools/vulndb/sqlutil"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/vulndb/debug"
-	"github.com/facebookincubator/nvdtools/vulndb/sqlutil"
 )
 
 // CustomDataRecord represents a db record of the `custom_data` table.

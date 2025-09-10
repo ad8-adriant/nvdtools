@@ -1,4 +1,4 @@
-![Tests](https://github.com/facebookincubator/nvdtools/actions/workflows/tests.yaml/badge.svg)
+![Tests](https://github.com/ad8-adriant/nvdtools/actions/workflows/tests.yaml/badge.svg)
 
 # NVD Tools
 
@@ -42,26 +42,26 @@ You need a properly setup Go environment.
 
 For Go 1.13 - 1.14:
 ```bash
-go get github.com/facebookincubator/nvdtools/...
-cd "$GOPATH"/src/github.com/facebookincubator/nvdtools/cmd
+go get github.com/ad8-adriant/nvdtools/...
+cd "$GOPATH"/src/github.com/ad8-adriant/nvdtools/cmd
 go install ./...
 ```
 
 From Go 1.15 onwards, modules are not downloaded to `GOPATH`, but to `GOMODCACHE`. It is recommended to clone the repo and run run go install from there instead:
 ```bash
-git clone https://github.com/facebookincubator/nvdtools
+git clone https://github.com/ad8-adriant/nvdtools
 cd nvdtools
 go install ./...
 ```
 
 From Go 1.17 onwards, `go get` is deprecated. `go install` is used instead to download the module to the cache and install it:
 ```bash
-go install github.com/facebookincubator/nvdtools/...@latest
+go install github.com/ad8-adriant/nvdtools/...@latest
 ```
 
 ## How-build
 ```bash
-go mod init github.com/facebookincubator/nvdtools
+go mod init github.com/ad8-adriant/nvdtools
 go mod tidy
 make
 cp build/bin/* ~/go/bin/

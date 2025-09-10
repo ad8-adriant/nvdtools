@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/lib/runner"
+	"github.com/ad8-adriant/nvdtools/providers/redhat/schema"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/lib/runner"
-	"github.com/facebookincubator/nvdtools/providers/redhat/schema"
 )
 
 const (

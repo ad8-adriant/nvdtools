@@ -17,7 +17,7 @@ package rpm
 import (
 	"fmt"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 // ToWFN parses CPE name from RPM package name

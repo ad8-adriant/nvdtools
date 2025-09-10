@@ -21,9 +21,9 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/ad8-adriant/nvdtools/vulndb"
+	"github.com/ad8-adriant/nvdtools/vulndb/mysql"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/vulndb"
-	"github.com/facebookincubator/nvdtools/vulndb/mysql"
 )
 
 func init() {

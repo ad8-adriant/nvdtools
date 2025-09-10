@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/facebookincubator/nvdtools/cvefeed"
+	"github.com/ad8-adriant/nvdtools/cvefeed"
 )
 
 func TestAppendAt(t *testing.T) {

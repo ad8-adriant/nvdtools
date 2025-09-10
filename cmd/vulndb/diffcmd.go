@@ -22,8 +22,8 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/ad8-adriant/nvdtools/cvefeed"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/cvefeed"
 	"github.com/spf13/cobra"
 )
 

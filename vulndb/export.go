@@ -24,9 +24,9 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/ad8-adriant/nvdtools/vulndb/debug"
+	"github.com/ad8-adriant/nvdtools/vulndb/sqlutil"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/vulndb/debug"
-	"github.com/facebookincubator/nvdtools/vulndb/sqlutil"
 )
 
 // DataExporter is a helper for exporting vulnerability records from the db.

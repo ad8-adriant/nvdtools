@@ -22,11 +22,11 @@ import (
 	"io"
 	"os"
 
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/lib/runner"
+	"github.com/ad8-adriant/nvdtools/providers/rbs/api"
+	"github.com/ad8-adriant/nvdtools/providers/rbs/schema"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/lib/runner"
-	"github.com/facebookincubator/nvdtools/providers/rbs/api"
-	"github.com/facebookincubator/nvdtools/providers/rbs/schema"
 )
 
 const (

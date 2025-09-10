@@ -20,8 +20,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/facebookincubator/nvdtools/rpm"
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/rpm"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 func TestFilter(t *testing.T) {

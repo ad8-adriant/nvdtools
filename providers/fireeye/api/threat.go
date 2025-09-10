@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/ad8-adriant/nvdtools/providers/fireeye/schema"
+	"github.com/ad8-adriant/nvdtools/stats"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/fireeye/schema"
-	"github.com/facebookincubator/nvdtools/stats"
 )
 
 // FetchAllThreatReportsSince will fetch all vulnerabilities with specified parameters

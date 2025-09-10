@@ -28,10 +28,10 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/ad8-adriant/nvdtools/cvefeed"
+	"github.com/ad8-adriant/nvdtools/stats"
+	"github.com/ad8-adriant/nvdtools/wfn"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/cvefeed"
-	"github.com/facebookincubator/nvdtools/stats"
-	"github.com/facebookincubator/nvdtools/wfn"
 )
 
 func processAll(in <-chan []string, out chan<- []string, caches map[string]*cvefeed.Cache, cfg config, nlines *uint64) {

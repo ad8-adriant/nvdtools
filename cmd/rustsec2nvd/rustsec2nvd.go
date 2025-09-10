@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/ad8-adriant/nvdtools/providers/rustsec"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/rustsec"
 )
 
 func init() {

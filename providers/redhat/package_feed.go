@@ -18,10 +18,10 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/ad8-adriant/nvdtools/providers/redhat/schema"
+	"github.com/ad8-adriant/nvdtools/rpm"
+	"github.com/ad8-adriant/nvdtools/wfn"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/redhat/schema"
-	"github.com/facebookincubator/nvdtools/rpm"
-	"github.com/facebookincubator/nvdtools/wfn"
 	"github.com/pkg/errors"
 )
 

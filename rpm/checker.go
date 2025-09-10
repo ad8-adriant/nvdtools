@@ -17,7 +17,7 @@ package rpm
 import (
 	"fmt"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 // Checker knows how to verify whether some package has been fixed or not

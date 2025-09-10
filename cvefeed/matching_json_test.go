@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/facebookincubator/nvdtools/wfn"
+	"github.com/ad8-adriant/nvdtools/wfn"
 )
 
 func TestBadJSONfeed(t *testing.T) {

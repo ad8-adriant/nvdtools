@@ -20,8 +20,8 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/ad8-adriant/nvdtools/vulndb/debug"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/vulndb/debug"
 )
 
 // OpenRead opens a connection to MySQL for reading.

@@ -21,11 +21,11 @@ import (
 	"io"
 	"os"
 
+	"github.com/ad8-adriant/nvdtools/providers/idefense/api"
+	"github.com/ad8-adriant/nvdtools/providers/idefense/schema"
+	"github.com/ad8-adriant/nvdtools/providers/lib/client"
+	"github.com/ad8-adriant/nvdtools/providers/lib/runner"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/idefense/api"
-	"github.com/facebookincubator/nvdtools/providers/idefense/schema"
-	"github.com/facebookincubator/nvdtools/providers/lib/client"
-	"github.com/facebookincubator/nvdtools/providers/lib/runner"
 )
 
 func Read(r io.Reader, c chan runner.Convertible) error {

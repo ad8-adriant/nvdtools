@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/ad8-adriant/nvdtools/providers/vfeed/schema"
 	"github.com/facebookincubator/flog"
-	"github.com/facebookincubator/nvdtools/providers/vfeed/schema"
 )
 
 const suffixPattern = "/*/CVE-*.json"
